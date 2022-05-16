@@ -4,8 +4,8 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
 import * as React from 'react';
 import { Platform } from 'react-native';
-import HomeScreen from './src/screens/HomeScreen';
-import TestScreen from './src/screens/TestScreen';
+import ImageScreen from './src/screens/ImageScreen';
+import TextScreen from './src/screens/TextScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -28,8 +28,8 @@ const App = () => (
         }
 
     }) }>
-      <Tab.Screen component={HomeScreen} name="Home" />
-      <Tab.Screen component={TestScreen} name="Test" />
+      <Tab.Screen component={ImageScreen} name="Home" />
+      <Tab.Screen component={TextScreen} name="Text" />
     </Tab.Navigator>
   </NavigationContainer>
 

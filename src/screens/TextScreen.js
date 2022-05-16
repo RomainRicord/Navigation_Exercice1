@@ -1,8 +1,9 @@
-import {Button, Text,View} from 'react-native'
+import {Text,View} from 'react-native'
+import TextComponent from '../component/TextComponent'
 
 const TestScreen = ({navigation}) => (
     <View style ={{flex:1,justifyContent:'center',alignItems:'center'}} >
-        <Text style={{fontSize:50}}>UN TEXTE</Text>
+        <TextComponent/>
     </View>
 )
 
